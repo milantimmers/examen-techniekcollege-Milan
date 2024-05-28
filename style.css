@@ -39,3 +39,20 @@ body {
     background-color: #000000;
     color: rgb(0, 0, 0);
 }
+
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("afbeeldingen/DSC08494.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
