@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    background-color: #000000;
+    background-color: #252525;
     overflow: hidden;
 }
 
@@ -31,28 +31,42 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #000000;
-    color: #000000;
+    background-color: #ff0000;
+    color: #ff0000;
 }
 
 .nav-link.active {
-    background-color: #000000;
-    color: rgb(0, 0, 0);
+    background-color: #ff0000;
+    color: rgb(255, 0, 0);
 }
 
 body, html {
     height: 100%;
   }
-  
-  .bg {
-    /* The image used */
-    background-image: url("afbeeldingen/DSC08494.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003600;
   }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #003805;
+  }
+  
+.home {
+    background-image: url('/afbeeldingen/procc_cover.jpg');
+}
