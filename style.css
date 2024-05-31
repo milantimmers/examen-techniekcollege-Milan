@@ -82,3 +82,7 @@ body, html {
   display: inline-block;
 }
 {text-align: center;}
+
+.text-center {
+  padding: 0px 100px 0px 100px;
+}
