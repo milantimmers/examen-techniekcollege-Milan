@@ -70,3 +70,6 @@ body, html {
 .home {
     background-image: url('/afbeeldingen/procc_cover.jpg');
 }
+.blue-text {
+  color: rgb(252, 252, 252);
+}
