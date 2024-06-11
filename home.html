@@ -26,20 +26,38 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>ProCC</title>
   <link rel="stylesheet" href="/style.css" />
+  <form action="login.php" method="post"></form>
 </head>
 
 <body class="home">
 
   <nav class="navbar">
     <ul class="nav-list">
-      <div style="width: 150px; margin: auto 0px auto 0px;"><li><img class="logo" src="afbeeldingen/Logo-ProCC-New.png" alt="Cinque Terre"></li></div>+
+      <div style="width: 150px; margin: auto 0px auto 0px;"><li><img class="logo" src="afbeeldingen/Logo-ProCC-New.png" alt="Cinque Terre"></li></div>
       <li class="nav-item"><a href="home.html">home</a></li>
       <li><a href="over ons.html">Over ons</a></li>
       <li><a href="oplossing.html">Oplossing</a></li>
       <li><a href="waarom proCC.html">waarom ProCC</a></li>
+    <div class="navbar">
+        <!-- Je bestaande navigatie hier -->
+    </div>
+
+    <div class="hero">
+        <!-- Je bestaande content hier -->
+        <div class="login-container">
+            <form action="login.php" method="post">
+                <h2>Login</h2>
+                <label for="gebruikersnaam">Gebruikersnaam:</label>
+                <input type="text" id="gebruikersnaam" name="gebruikersnaam" required>
+                <label for="wachtwoord">Wachtwoord:</label>
+                <input type="password" id="wachtwoord" name="wachtwoord" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
     </ul>
   </nav>
-
+  
   <main>
     <div style="padding-left: 0%;">
       <style></style>
